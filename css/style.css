@@ -8,7 +8,7 @@ img {
     width: 100%;
 }
 
-/*HEADER*/
+/*INIZIO HEADER*/
 header {
     width: 55%;
     height: 47vh;
@@ -21,6 +21,22 @@ header {
     height: 30%;
     margin-bottom: 1%;
 }
+
+/*INIZIO LOGO*/
+.logo {
+    width: 350px;
+    height: 70px;
+    background-size: contain;
+    background-image: url("../img/logo.png");
+    background-repeat: no-repeat;
+}
+/*FINE LOGO*/
+
+/*INIZIO MENU*/
+.menu {
+    
+}
+/*FINE MENU*/
 
 .banner {
     width: 100%;
