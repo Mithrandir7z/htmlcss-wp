@@ -85,6 +85,7 @@ main {
     margin-top: 27px;
 }
 
+/*/*inizio colonna sinistra*/
 .col-left {
     width: 25%;
     float: left;
@@ -100,15 +101,26 @@ main {
     background-size: cover;
     background-repeat: no-repeat;
 }
+/*fine colonna sinistra*/
 
+/*inizio colonna centrale*/
 .col-centre {
     width: 44.25%;
-    background-color: skyblue;
     float: left;
-    height: 340px;
     margin-bottom: 20px;
 }
 
+.image-centre {
+    width: 100%;
+    height: 150px;
+    background-image: url("../img/banner-2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/*fine colonna centrale*/
+
+
+/*inizio colonna destra*/
 .col-right {
     width: 25%;
     float: left;
@@ -124,6 +136,7 @@ main {
     background-size: cover;
     background-repeat: no-repeat;
 }
+/*fine colonna destra*/
 
 
 .clearfix::after {
@@ -137,9 +150,10 @@ main {
 /*INIZIO FOOTER*/
 footer {
     width: 55%;
-    background-color: blueviolet;
     height: 50px;
     margin: auto;
     margin-top: 9px;
+    border-bottom: solid black 2px;
+    text-align: center;
 }
 /*FINE FOOTER*/
